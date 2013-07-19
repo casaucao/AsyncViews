@@ -18,7 +18,8 @@ public final class R {
         public static final int activity_main_bt_inflar=0x7f070001;
         public static final int activity_main_ll_container=0x7f070000;
         public static final int item_view_ll=0x7f070003;
-        public static final int menu_settings=0x7f070004;
+        public static final int item_view_tv=0x7f070004;
+        public static final int menu_settings=0x7f070005;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;

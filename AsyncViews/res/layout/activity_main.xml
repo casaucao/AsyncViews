@@ -10,7 +10,8 @@
         <LinearLayout
             android:id="@+id/activity_main_ll_container"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
     </ScrollView>
 
     <LinearLayout

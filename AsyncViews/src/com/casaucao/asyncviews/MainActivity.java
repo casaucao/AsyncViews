@@ -12,6 +12,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 /**
  * Esta aplicación Android intenta enseñar una posible forma de cargar vistas de forma dinámica.
@@ -143,6 +144,8 @@ public class MainActivity extends Activity {
 				final LinearLayout childItem = (LinearLayout) item.getChildAt(j);
 				childItem.setBackgroundColor(getRandomColor()); // Asignamos un color aleatorio a cada celda
 			}
+			
+			((TextView)item.findViewById(R.id.item_view_tv)).setText(""+i); // Asignamos el número de item
 			
 			ll.addView(item);
 		}
