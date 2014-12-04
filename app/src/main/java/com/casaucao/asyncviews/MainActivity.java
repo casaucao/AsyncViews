@@ -22,7 +22,7 @@ import android.widget.TextView;
  * @twitter @casaucao
  */
 public class MainActivity extends Activity {
-	private static final int MAX_VIEWS = 1000; // Número de views que inflaremos
+	private static final int MAX_VIEWS = 10000; // Número de views que inflaremos
 	private LinearLayout ll_container; // Contenedor de las vistas que inflaremos
 	private LinearLayout ll; // Contenedor temporal (será hijo de ll_container)
 	private ProgressDialog pd; // Diálogo de progreso para informar que se están realizando tareas en segundo plano
